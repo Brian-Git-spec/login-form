@@ -112,3 +112,85 @@ footer a:hover {
     font-size: 0.85rem;
     margin-top: 0.3rem;
 }
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6e8efb;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-header h1 {
+  font-size: 1.4rem;
+}
+
+.dashboard-header button {
+  background: #fff;
+  color: #6e8efb;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.dashboard-header button:hover {
+  background: #ddd;
+}
+
+.dashboard-nav {
+  background: #a777e3;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dashboard-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dashboard-nav a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-main {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-main h2 {
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+
+.dashboard-aside {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  padding-bottom: 1rem;
+}
